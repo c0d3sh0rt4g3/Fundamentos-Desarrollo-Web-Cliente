@@ -8,3 +8,4 @@
 2. **Aplicaciones Web Progresivas (PWA)**
 
    Las PWAs son waplicaciones web avanzadas que combinan lo mejor de una pagina web con lo mejor de una app movil. Usan tecnologias web modernas y pueden funcionar offline, asegurando que el contenido incluso sin conexion a internet, las PWAs proporcionan una experiencia de usuario rapida y consistente a traves de diferentes dispositivos, a diferencia de las aplicaciopnes nativas, las PWAs no requieren instalacion alguna en una app store y pueden ser encontradas facilmente con motores de busqueda. Las PWAs han sido un antes y un despues para negocios y desarrolladores ofreciendo mejoras en el rendimiento y la compatibilidad multiplataforma.
+3. **Renderizado del Lado del Servidor(SSR)**
