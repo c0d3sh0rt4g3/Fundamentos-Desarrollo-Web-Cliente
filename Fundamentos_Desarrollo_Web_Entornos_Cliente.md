@@ -22,7 +22,7 @@
    **SOA** es un método de desarrollo de software que utiliza componentes de software llamados servicios para crear **aplicaciones empresariales**, estos servicios brindan una capacidad empresarial y, además, pueden comunicarse también con el resto de servicios mediante diferentes plataformas y lenguajes. Esta arquitectura añade **estabilidad** y **escalabilidad** al stack tecnológico de tu aplicación, sin embargo el mantenimiento de estas aplicaciones puede ser un problema.
 7. **Arquitectura de Microservicios**
 
-   La arquitectura de **microservicios** es un estilo de arquitectura para desarrollar aplicaciones, gracias a los microservicios, una aplicación grande puede separarse en **partes independientes** más pequeñas, cada una con su propio **dominio de responsabilidad**. Una aplicación basada en microservicios puede llamar a muchos microservicios internos con los que preparar su respuesta. La arquitectura de **microservicios** es la mejor arquitectura para construir aplicaciones que pretenden escalar algún día a miles y millones de usuarios ya que cada componente es **resistente**, **escalable** y **fácil de mantener**,, un ejemplo de una aplicacion con esta arquitectura seria **Netflix**.
+   La arquitectura de **microservicios** es un estilo de arquitectura para desarrollar aplicaciones, gracias a los microservicios, una aplicación grande puede separarse en **partes independientes** más pequeñas, cada una con su propio **dominio de responsabilidad**. Una aplicación basada en microservicios puede llamar a muchos microservicios internos con los que preparar su respuesta. La arquitectura de **microservicios** es la mejor arquitectura para construir aplicaciones que pretenden escalar algún día a miles y millones de usuarios ya que cada componente es **resistente**, **escalable** y **fácil de mantener**,, un ejemplo de una aplicacion con esta arquitectura seria **Netflix**
 8. **Arquitectura Sin Servidor**
 
    Es una manera de **crear y ejecutar aplicaciones** y servicios sin tener que administrar infraestructura gracias a esto, los desarrolladores se pueden enfocar en el **producto principal** en lugar de preocuparse por la **administración** y el **funcionamiento** de los servidores, o los **tiempos de ejecución**, tanto en la nube como en las instalaciones, sin embargo, es difícil llevar a cabo **tareas de larga duración** utilizando estos componentes.
@@ -97,9 +97,50 @@ Alguna medida para resolver problemas de compatibilidad serian:
 * **HTML:**
   Es el **lenguaje de marcado estandar** utilizado para crear la estructura y el contenido de una pagina web. **HTML** utiliza etiquetas para definir elementos como encabezados, parrafos, imagenes y enlaces
 * **CSS:**
-  Se utiliza para dar estilo y diseño a las paginas web, permite controlar la apariencia de los elementos **HTML** como el tamaño, los colores, las fuentes y los margenes.
+  Se utiliza para dar **estilo y diseño** a las paginas web, permite **controlar la apariencia** de los elementos **HTML** como el tamaño, los colores, las fuentes y los margenes.
 
 ###### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
+
+* **Ejemplo de JavaScript dentro del HTML:**
+
+  ~~~~
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Ejemplo js en el archivo</title>
+  </head>
+  <body>
+    <script>
+        alert("Hello world from inside a HTML")
+    </script>
+  </body>
+  </html>
+  ~~~~
+* **Ejemplo de JavaScript en un archivo separado:**
+
+  **Archivo de JavaScript:**
+
+  ````
+  alert("Hello world from outside a HTML")
+
+  ````
+
+  **Archivo HTML:**
+
+  ````
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Ejemplo js en el archivo</title>
+      <script src="./js/ejemplo.js"></script>
+  </head>
+  <body>
+  </body>
+  </html>
+  ````
 
 #### Bibliografia
 
