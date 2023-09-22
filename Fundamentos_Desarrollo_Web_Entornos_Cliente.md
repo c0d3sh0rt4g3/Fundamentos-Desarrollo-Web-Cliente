@@ -29,11 +29,24 @@
 
 #### 2.- Mecanismos de Ejecución de Código en un Navegador Web
 
-##### Ejecucion del codigo en JavaScript en navegador:
+###### Ejecucion del codigo en JavaScript en navegador:
 
 **JavaScript** no es compilado, en su lugar, un interprete en el navegador lee el codigo en **JavaScript**, interpreta cada linea y lo ejecuta, los navegadores mas modernos usan una tecnologia llamada compilacion **Just-In-Time (JIT)**, que compila **JavaScript** a un ejecutable en bytecode justo cuando esta a punto de ejecutarse.
 
-##### Diferencias de compatibilidad entre navegadores
+###### Diferencias de compatibilidad entre navegadores:
+
+Los diferentes navegadores web tienen **implementaciones de JavaScript diferentes** y pueden admitir características **específicas del navegador**, ademas, las versiones antiguas de navegadores pueden no ser compatibles con algunas caracteristicas de **JavaScript** y las **APIs** mas nuevas, ademas lo navegadores moviles suelen tener limitaciones de **rendimiento** y **funcionalidad**.
+
+###### Resolucion de problemas de compatibilidad:
+
+Alguna medidad para resolver problemas de compatibilidad serian:
+
+1. Realizar pruebas en distintos navegadores y versiones para **identificar posibles problemas**
+2. Mantener actualizado tanto el navegador como las version de **JavaScript**
+3. Usar herramientas como **Babel** para convertir nuestro codigo a codigo compatible con versiones mas antiguas de **JavaScript**.
+
+#### 3.- Lenguajes de Programación en Entorno Cliente:
+
 
 #### Bibliografia
 
@@ -45,3 +58,6 @@
 * [AWS](https://aws.amazon.com/es/what-is/service-oriented-architecture/#:~:text=you%20implement%20microservices%3F-,What%20is%20service-oriented%20architecture%3F,other%20across%20platforms%20and%20languages.)
 * [GoogleCloud](https://cloud.google.com/learn/what-is-microservices-architecture?hl=es#:~:text=on%20Google%20Cloud.-,Microservices%20architecture%20defined,architecture%20diagrams%20and%20services%20independently.)
 * [OpenWebinar](https://openwebinars.net/blog/microservicios-que-son/)
+* [Lawebera](https://www.lawebera.es/xhtml-css/compatibilidad-web-navegadores.php)
+* [Babel](https://ingenieriadesoftware.es/babel-transpilador-compatibilidad-javascript/)
+* [Back4app](https://blog.back4app.com/client-side-development-languages/)
