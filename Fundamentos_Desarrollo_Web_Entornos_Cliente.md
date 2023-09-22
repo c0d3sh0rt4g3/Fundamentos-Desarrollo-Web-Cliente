@@ -47,6 +47,25 @@ Alguna medidad para resolver problemas de compatibilidad serian:
 
 #### 3.- Lenguajes de Programación en Entorno Cliente:
 
+###### JavaScript
+
+* Caracteristicas:
+  **JavaScript** es un lenguaje interpretado en tiempo de ejecucion en el navegador, ademas es de **tipado dinamico**, es decir, que las variables no tienen un **tipo de dato fijado** durante toda la ejecucion del programa, ademas **JavaScript** pese a ser **multiparadigma** se puede usar para programar **a objetos**.
+* Aplicaciones:
+  **JavaScript** se utiliza para crear webs interactivas, ademas de para desarrollar aplicaciones moviles hibridas utilizando frameworks como **React Native**, por ultimo, tambien puede ser usado para **desarrollar servidores** usando **Node.js**
+
+###### TypeScript
+
+* Caracteristicas:
+  **TypeScript** es una extension de **JavaScript** que añade, entre otras caracteristicas, **tipado estatico opcional**, por tanto los tipos de datos de las variables estaran definidos, esto facilita en muchos casos la deteccion de fallos, **TypeScript** tambien tiene soporte para **programacion orientada a objetos**
+* Aplicaciones:
+  **TypeScript** se usa para desarrollar aplicaciones web **grandes y complejas**, asi como para desarrollar aplicaciones moviles con frameworks como **NativeScript**, por ultimo, se puede usar para **desarrollar aplicaciones de servidor** a traves de **Node.js**
+
+###### Swift
+
+* Caracteristicas:
+  **Swift** es un lenguaje de programacion usado para el desarrollo en dispositivos **Apple**, es un lenguaje de alto rendimiento, llegando a ser 2 veces mas rapido que **C**, por tanto esto es ideal patra aplicaciones que requieren de una respuesta rapida, ademas es un lenguaje bastante seguro que ofrece caracteristicas como el **manejo automatico de la memoria** y la **prevencion de vulnerabilidades de seguridad comunes**, por ultimo, es de **tipado estatico**, tiene una **sintaxis legible** y un manejo de errores **destacable**
+* Aplicaciones:
 
 #### Bibliografia
 
