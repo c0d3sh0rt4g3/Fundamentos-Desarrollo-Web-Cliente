@@ -92,6 +92,14 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
 #### 5.- Integracion de Codigo con las Etiquetas HTML
 
+###### Exploracion de tecnologias como CSS y HTML5
+
+* **HTML:**
+  Es el **lenguaje de marcado estandar** utilizado para crear la estructura y el contenido de una pagina web. **HTML** utiliza etiquetas para definir elementos como encabezados, parrafos, imagenes y enlaces
+* **CSS:**
+  Se utiliza para dar estilo y diseño a las paginas web, permite controlar la apariencia de los elementos **HTML** como el tamaño, los colores, las fuentes y los margenes.
+
+###### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
 
 #### Bibliografia
 
