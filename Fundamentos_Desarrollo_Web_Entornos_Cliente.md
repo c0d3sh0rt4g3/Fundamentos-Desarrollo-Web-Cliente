@@ -39,13 +39,13 @@ Los diferentes navegadores web tienen **implementaciones de JavaScript diferente
 
 ###### Resolucion de problemas de compatibilidad:
 
-Alguna medidad para resolver problemas de compatibilidad serian:
+Alguna medida para resolver problemas de compatibilidad serian:
 
 1. Realizar pruebas en distintos navegadores y versiones para **identificar posibles problemas**
 2. Mantener actualizado tanto el navegador como las version de **JavaScript**
 3. Usar herramientas como **Babel** para convertir nuestro codigo a codigo compatible con versiones mas antiguas de **JavaScript**.
 
-#### 3.- Lenguajes de Programación en Entorno Cliente:
+#### 3.- Lenguajes de Programación en Entorno Cliente
 
 ###### JavaScript
 
@@ -61,11 +61,37 @@ Alguna medidad para resolver problemas de compatibilidad serian:
 * Aplicaciones:
   **TypeScript** se usa para desarrollar aplicaciones web **grandes y complejas**, asi como para desarrollar aplicaciones moviles con frameworks como **NativeScript**, por ultimo, se puede usar para **desarrollar aplicaciones de servidor** a traves de **Node.js**
 
-###### Swift
+###### Elm
 
 * Caracteristicas:
-  **Swift** es un lenguaje de programacion usado para el desarrollo en dispositivos **Apple**, es un lenguaje de alto rendimiento, llegando a ser 2 veces mas rapido que **C**, por tanto esto es ideal patra aplicaciones que requieren de una respuesta rapida, ademas es un lenguaje bastante seguro que ofrece caracteristicas como el **manejo automatico de la memoria** y la **prevencion de vulnerabilidades de seguridad comunes**, por ultimo, es de **tipado estatico**, tiene una **sintaxis legible** y un manejo de errores **destacable**
+  **Elm** es un lenguaje de programacion funcional puro, ademas cuenta con un sistema de tipado **fuerte y estatico** que atrapa muchos **errores durante la compilacion**, **Elm** tiene un patron de diseño propioconocido como **Elm Architecture**, que divide la aplicación en tres partes: el **modelo** (representa el estado de la aplicación), la **vista** (la interfaz de usuario) y la **actualización** (las funciones que cambian el estado), ademas la gestion de errores en **Elm** es amigable puesto que los mensajes de error en **Elm** son bastante claros y descriptivos.
 * Aplicaciones:
+  **Elm** se utiliza principalmente para crear webs interactivas y de alto rendimiento , asi como **SPAs y aplicaciones criticas** debido a su capacidad para gestionar el estado de la aplicacion de **manera eficiente y minimizando errores**
+
+#### 4.- Caracteristicas de los Lenguajes de Script
+
+###### Ventajas:
+
+* **Facilidad de aprendizaje:**
+  Los lenguajes de script suelen tener una **sintaxis mas simple** y legible en comparacion con otros **lenguajes tradicionales** como **Java**, esto los hace mas **accesibles** para gente que esta **empezando a programar**.
+* **Desarrollo rapido:**
+  Por lo general, los lenguajes de script requieren **menos lineas de codigo para conseguir una funcionalidad**
+* **Gran comunidad:**
+  Lenguajes con **Python y JavaScript** tienen grandes comunidades activas y por tanto, gran variedad de librerias y **recursos para aprender online**
+
+###### Desventajas:
+
+* **Rendimiento limitado:**
+  En general los lenguajes de script tienden a ser **mas lentos** que los **lenguajes de programacion tradicionales** ya que la **interpretacion en tiempo real y la falta de optimizacion de compilacion** pueden llevar a un descenso en el rendimiento.
+* **Dependencia de la maquina virtual::**
+  Algunoss lenguajes de script como **Pyhton o JavaScript** en el navegador dependen de **maquinas virtuales o interpretes especificos**, esto puede llevar a **problemas de compatibilidad.**
+* **Limitaciones en Aplicaciones de Alto Rendimiento:**
+  Para aplicaciones que requieren un mantenimietno **exahustivo o un control preciso del hardware**,, los lenguajes de **script** pueden no ser la mejor opcion en **temas de optimizacion**.
+* **Seguridad:**
+  Los lenguajes de script suelen ser **mas vulnerables** por lo general a ciertos ataques como la **inyeccion de codigo** si no se toman las **suficientes precauciones**.
+
+#### 5.- Integracion de Codigo con las Etiquetas HTML
+
 
 #### Bibliografia
 
@@ -80,3 +106,4 @@ Alguna medidad para resolver problemas de compatibilidad serian:
 * [Lawebera](https://www.lawebera.es/xhtml-css/compatibilidad-web-navegadores.php)
 * [Babel](https://ingenieriadesoftware.es/babel-transpilador-compatibilidad-javascript/)
 * [Back4app](https://blog.back4app.com/client-side-development-languages/)
+* [Aulab](https://aulab.es/noticia/202/que-es-un-lenguaje-de-scripting#:~:text=Ventajas%20y%20desventajas%20de%20los%20lenguajes%20de%20scripting&text=Generalmente%20tienen%20una%20sintaxis%20más,te%20permiten%20crear%20páginas%20atractivas.)
