@@ -123,13 +123,11 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
   ````
   alert("Hello world from outside a HTML")
-
   ````
 
   **Archivo HTML:**
 
   ````
-
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -141,6 +139,22 @@ Alguna medida para resolver problemas de compatibilidad serian:
   </body>
   </html>
   ````
+
+#### 6.- Herramientas de programación
+
+###### Algunas de las herramientas de programacion mas populares son:
+
+* **Visual Studio Code:**
+  **VS Code** es un **IDE** desarrollado por microsoft, tiene una gran personalizacion y es de código abierto, además, ofrece soporte para gran variedad de lenguajes y tiene gran cantidad de extensiones, por último, ofrece **resaltado de sintaxis, autocompletado, depuración integrada y control de versiones**
+* **Chrome Devtools:**
+  **Chrome DeveTools** te permite hacer lo que su nombre indica, permite a los desarrolladores acceder al interior de sus aplicaciones web, ofreciendo variedad de herramientas para optimizar su código, mientras una **línea de tiempo** va mostrando los cambios que se realizan en cada momento.
+* **GitHub:**
+  Es una plataforma de **alojamiento de código** basada en **Git** que facilita el seguimiento de los proyectos y la colaboracion entre programadores.
+* **IntelliJ IDEA:**
+  Es un **IDE** bastante popular para programar en **Java** y **Kotlin** entre otros, ofrece características avanzadas para **refactorizar, analizar y depurar** el código, además también tiene **control de versiones** es compatible con plugins.
+* **CodePen:**
+
+  **CodePen** es una herramienta utilizada para mostrar fragmentos de código en HTML, CSS o JavaScript en una página web, debido a que el número de gente que aprende a programar no hace más que crecer,**CodePen** no hace más que ganar popularidad.
 
 #### Bibliografia
 
@@ -156,3 +170,5 @@ Alguna medida para resolver problemas de compatibilidad serian:
 * [Babel](https://ingenieriadesoftware.es/babel-transpilador-compatibilidad-javascript/)
 * [Back4app](https://blog.back4app.com/client-side-development-languages/)
 * [Aulab](https://aulab.es/noticia/202/que-es-un-lenguaje-de-scripting#:~:text=Ventajas%20y%20desventajas%20de%20los%20lenguajes%20de%20scripting&text=Generalmente%20tienen%20una%20sintaxis%20más,te%20permiten%20crear%20páginas%20atractivas.)
+* [5 herramientas de desarrollo web que debes usar](https://www.linkedin.com/pulse/5-herramientas-de-desarrollo-web-que-debes-usar-mohamed-rifi/?originalSubdomain=es)
+* [CfBlog](https://careerfoundry.com/en/blog/web-development/7-essential-tools-for-front-end-development/)
