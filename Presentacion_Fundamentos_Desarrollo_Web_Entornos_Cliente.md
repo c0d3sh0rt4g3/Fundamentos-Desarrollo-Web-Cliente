@@ -13,13 +13,10 @@ h4{
     font-size: 35px
 }
 h5{
-    font-size: 28px
+    font-size: 30px
 }
 {
     font-size: 19px
-}
-p{
-    font-size: 18px
 }
 
 </style>
@@ -30,49 +27,72 @@ p{
 
 ---
 
+<h1 style="text-align:center">Índice</h1>
+
+**1. Modelos de Programación en Entornos Cliente/Servidor**
+
+**2. Mecanismos de Ejecución de Código en un Navegador Web**
+* Ejecucion del codigo en JavaScript en navegador
+* Diferencias de compatibilidad entre navegadores
+
+**3. Lenguajes de Programación en Entorno Cliente**
+
+**4. Caracteristicas de los Lenguajes de Script**
+* Ventajas
+* Desventajas
+
+**5. Integracion de Codigo con las Etiquetas HTML**
+* Exploracion de tecnologias como CSS y HTML5
+* Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras
+
+**6. Herramientas de programación**
+
+---
 #### 1.- Modelos de Programación en Entornos Cliente/Servidor
 
 * **SPA (Aplicaciones de una sola página)**
-    * Actualizan el contenido sin recargar la página.
-    * Interactividad gracias a AJAX (JavaScript y XML asincrónicos).
-    * Ejemplo: Gmail.
+    * Actualizan el contenido **sin recargar la página**.
+    * Interactividad gracias a **AJAX** (JavaScript y XML asincrónicos).
+    * Ejemplo: **Gmail**.
     <br>
 * **PWA (Aplicaciones Web Progresivas)**
-    * Combinan lo mejor de una página web y una app móvil.
-    * Funcionan offline y ofrecen rapidez y consistencia.
-    * Ejemplo: Telegram.
+    * Combinan lo mejor de una **página web y una app móvil**.
+    * Funcionan offline y ofrecen **rapidez y consistencia**.
+    * Ejemplo: **Telegram**.
     <br>
 * **SSR (Renderizado del Lado del Servidor)**
-    * Convierten archivos HTML en páginas renderizadas.
-    * Beneficios para la optimización del motor de búsqueda.
-    * Populares en blogs y sitios de comercio electrónico.
+    * Convierten archivos HTML en páginas **renderizadas**.
+    * Beneficios para la optimización del **motor de búsqueda**.
+    * Populares en **blogs y sitios de comercio electrónico**.
     <br>
 * **Aplicaciones Prerrenderizadas**
-    * Generación de sitios estáticos con páginas HTML, CSS y JS planos.
+    * Generación de **sitios estáticos** con páginas HTML, CSS y JS planos.
     * Rápidas, pero aumentan el tiempo de construcción.
-    * Ideal para contenido estático como blogs o detalles de productos.
+    * Ideal para **contenido estático** como **blogs o detalles de productos**.
 
 ---
 
+#### 1.- Modelos de Programación en Entornos Cliente/Servidor
+
 * **Aplicaciones Isomórficas**
     * Combina SSR y SPA.
-    * Renderizadas primero en el servidor y luego en el cliente.
+    * Renderizadas **primero en el servidor y luego en el cliente**.
     * Rápidas, eficientes y amigables para SEO.
     <br>
 * **Arquitectura SOA (Arquitectura Orientada al Servicio)**
-    * Utiliza servicios para crear aplicaciones empresariales.
-    * Añade estabilidad y escalabilidad.
+    * Utiliza servicios para **crear aplicaciones empresariales**.
+    * Añade **estabilidad y escalabilidad**.
     * Requiere mantenimiento.
     <br>
 * **Arquitectura de Microservicios**
-    * Divide aplicaciones grandes en partes independientes.
-    * Resistente, escalable y fácil de mantener.
-    * Ejemplo: Netflix.
+    * Divide aplicaciones **grandes** en partes **independientes**.
+    * **Resistente, escalable y fácil de mantener**.
+    * Ejemplo: **Netflix**.
     <br>
 * **Arquitectura Sin Servidor**
-    * Permite crear aplicaciones sin administrar infraestructura.
-    * Enfocado en el producto principal.
-    * Limitaciones en tareas de larga duración
+    * Permite crear aplicaciones **sin administrar infraestructura**.
+    * Enfocado en el **producto principal**.
+    * Limitaciones en **tareas de larga duración**
 
 ---
 
@@ -80,19 +100,19 @@ p{
 
 ##### Ejecucion del codigo en JavaScript en navegador:
 
-**JavaScript** no es compilado, en su lugar, un interprete en el navegador lee el codigo en **JavaScript**, interpreta cada linea y lo ejecuta, los navegadores mas modernos usan una tecnologia llamada compilacion **Just-In-Time (JIT)**, que compila **JavaScript** a un ejecutable en bytecode justo cuando esta a punto de ejecutarse.
+**JavaScript** no es compilado, en su lugar, un intérprete en el navegador lee el código en **JavaScript**, interpreta cada línea y lo ejecuta, los navegadores más modernos usan una tecnología llamada compilación **Just-In-Time (JIT)**, que compila **JavaScript** a un ejecutable en bytecode justo cuando está a punto de ejecutarse.
 
 ##### Diferencias de compatibilidad entre navegadores:
 
-Los diferentes navegadores web tienen **implementaciones de JavaScript diferentes** y pueden admitir características **específicas del navegador**, ademas, las versiones antiguas de navegadores pueden no ser compatibles con algunas caracteristicas de **JavaScript** y las **APIs** mas nuevas, ademas lo navegadores moviles suelen tener limitaciones de **rendimiento** y **funcionalidad**.
+Los diferentes navegadores web tienen **implementaciones de JavaScript diferentes** y pueden admitir características **específicas del navegador**, además, las versiones antiguas de navegadores pueden no ser compatibles con algunas características de **JavaScript** y las **APIs** mas nuevas, ademas lo navegadores móviles suelen tener limitaciones de **rendimiento** y **funcionalidad**.
 
 ##### Resolucion de problemas de compatibilidad:
 
-Algunas medidas para resolver problemas de compatibilidad serian:
+Algunas medidas para resolver problemas de compatibilidad serían:
 
 * Realizar pruebas en distintos navegadores y versiones para **identificar posibles problemas**
 * Mantener actualizado tanto el navegador como las version de **JavaScript**
-* Usar herramientas como **Babel** para convertir nuestro codigo a codigo compatible con versiones mas antiguas de **JavaScript**
+* Usar herramientas como **Babel** para convertir nuestro código a código compatible con versiones más antiguas de **JavaScript**
 
 ---
 
@@ -102,7 +122,7 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 
 ![bg right height:160px](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png)
 
-* **Caracteristicas:**
+* **Características:**
     * **Lenguaje interpretado** en tiempo de ejecución en el navegador.
     * **Tipado dinámico**, sin **tipos de dato fijados**.
     * **Multiparadigma**, se puede usar para programar **orientado a objetos**.
@@ -116,9 +136,7 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 
 ##### TypeScript
 
-<!-- ![height:60px](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png) -->
-
-* **Caracteristicas:**
+* **Características:**
     * Extensión de JavaScript con **tipado estático opcional**.
     * Soporte para programación **orientada a objetos**.
 
@@ -129,9 +147,7 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 
 ##### Elm
 
-<!-- ![height:60px](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Elm_logo.svg/1024px-Elm_logo.svg.png) -->
-
-* **Caracteristicas:**
+* **Características:**
     * Lenguaje de programación **funcional puro**.
     * Sistema de **tipado fuerte y estático** que atrapa errores en compilación.
     * Patrón de diseño conocido como "Elm Architecture."
@@ -142,7 +158,6 @@ Algunas medidas para resolver problemas de compatibilidad serian:
     * Desarrollo de SPAs y aplicaciones críticas.
     * Eficiente gestión del estado de la aplicación y minimización de errores.
 
-
 ---
 
 #### 4.- Caracteristicas de los Lenguajes de Script
@@ -150,14 +165,14 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 ##### Ventajas
 
 * **Facilidad de aprendizaje:**
-    * Tienen una **sintaxis mas simple** y legible en comparacion con otros **lenguajes tradicionales**.
+    * Tienen una **sintaxis mas simple** y legible en comparación con otros **lenguajes tradicionales**.
     * Más **accesibles** para gente que está **empezando a programar**.
 
 * **Desarrollo rapido:**
-    * Se requieren **menos lineas de codigo** para conseguir una funcionalidad
+    * Se requieren **menos líneas de óodigo** para conseguir una funcionalidad
 * **Gran comunidad:**
     * Lenguajes con **Python y JavaScript** tienen grandes comunidades activas. 
-    * Gran variedad de librerias y **recursos para aprender online** 
+    * Gran variedad de librerías y **recursos para aprender online** 
 
 ---
 ##### Desventajas
@@ -187,6 +202,77 @@ Algunas medidas para resolver problemas de compatibilidad serian:
   Es el **lenguaje de marcado estandar** utilizado para crear la estructura y el contenido de una pagina web. **HTML** utiliza etiquetas para definir elementos como encabezados, parrafos, imagenes y enlaces
 * **CSS:**
   Se utiliza para dar **estilo y diseño** a las paginas web, permite **controlar la apariencia** de los elementos **HTML** como el tamaño, los colores, las fuentes y los margenes.
+
 ![bg right height:300px](https://velog.velcdn.com/images/mj9457/post/a063d5f9-a43e-4777-b21e-f3c85cb63e04/image.jpg)
 
 ---
+
+##### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras
+
+* **Ejemplo de JavaScript dentro del HTML:**
+
+  ~~~~html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Ejemplo js en el archivo</title>
+  </head>
+  <body>
+    <script>
+        alert("Hello world from inside a HTML")
+    </script>
+  </body>
+  </html>
+  ~~~~
+* **Ejemplo de JavaScript en un archivo separado:**
+
+````html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Ejemplo js en el archivo</title>
+      <script src="./js/ejemplo.js"></script>
+  </head>
+  <body>
+  </body>
+  </html>
+````
+
+---
+
+#### 6.- Herramientas de programación
+
+##### Algunas de las herramientas de programacion mas populares:
+
+* **Visual Studio Code (VS Code):**
+    * Desarrollado por **Microsoft**.
+    * IDE de **código abierto**.
+    * Soporte para varios lenguajes.
+    * Ofrece **resaltado de sintaxis, autocompletado, depuración y control de versiones**.
+
+* **Chrome Devtools:**
+    * Acceso al interior de aplicaciones web.
+    * Herramientas de **optimización**.
+    * **Línea de tiempo** para seguimiento de cambios.
+
+* **GitHub:**
+    * Plataforma de alojamiento de código **basada en Git**.
+    * Facilita el **seguimiento** de proyectos y la **colaboración**.
+
+---
+
+##### Algunas de las herramientas de programacion mas populares:
+
+* **IntelliJ IDEA:**
+    * IDE popular para **Java** y **Kotlin**.
+    * Refactorización, **análisis y depuración avanzados.**
+    * Compatible con **plugins y control de versiones.**
+
+* **CodePen:**
+    * Herramienta para mostrar fragmentos de código **HTML, CSS y JavaScript** en una página web.
+    * Ganando popularidad en la comunidad de programadores **en crecimiento**.
+
+---
+
