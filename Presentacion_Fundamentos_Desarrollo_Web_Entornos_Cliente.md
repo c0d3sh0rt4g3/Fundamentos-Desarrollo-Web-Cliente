@@ -26,6 +26,8 @@ h4{
 
 ![imagen_portada](./img/portada.jpg)
 
+Erik López Jiménez
+
 ---
 
 <h1>Índice</h1>
