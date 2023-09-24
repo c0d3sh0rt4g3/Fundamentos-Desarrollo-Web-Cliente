@@ -39,7 +39,7 @@ Los diferentes navegadores web tienen **implementaciones de JavaScript diferente
 
 ###### Resolucion de problemas de compatibilidad:
 
-Alguna medida para resolver problemas de compatibilidad serian:
+Algunas medida para resolver problemas de compatibilidad serian:
 
 1. Realizar pruebas en distintos navegadores y versiones para **identificar posibles problemas**
 2. Mantener actualizado tanto el navegador como las version de **JavaScript**
@@ -47,21 +47,21 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
 #### 3.- Lenguajes de Programación en Entorno Cliente
 
-###### JavaScript
+##### JavaScript
 
 * Caracteristicas:
   **JavaScript** es un lenguaje interpretado en tiempo de ejecucion en el navegador, ademas es de **tipado dinamico**, es decir, que las variables no tienen un **tipo de dato fijado** durante toda la ejecucion del programa, ademas **JavaScript** pese a ser **multiparadigma** se puede usar para programar **a objetos**.
 * Aplicaciones:
   **JavaScript** se utiliza para crear webs interactivas, ademas de para desarrollar aplicaciones moviles hibridas utilizando frameworks como **React Native**, por ultimo, tambien puede ser usado para **desarrollar servidores** usando **Node.js**
 
-###### TypeScript
+##### TypeScript
 
 * Caracteristicas:
   **TypeScript** es una extension de **JavaScript** que añade, entre otras caracteristicas, **tipado estatico opcional**, por tanto los tipos de datos de las variables estaran definidos, esto facilita en muchos casos la deteccion de fallos, **TypeScript** tambien tiene soporte para **programacion orientada a objetos**
 * Aplicaciones:
   **TypeScript** se usa para desarrollar aplicaciones web **grandes y complejas**, asi como para desarrollar aplicaciones moviles con frameworks como **NativeScript**, por ultimo, se puede usar para **desarrollar aplicaciones de servidor** a traves de **Node.js**
 
-###### Elm
+##### Elm
 
 * Caracteristicas:
   **Elm** es un lenguaje de programacion funcional puro, ademas cuenta con un sistema de tipado **fuerte y estatico** que atrapa muchos **errores durante la compilacion**, **Elm** tiene un patron de diseño propioconocido como **Elm Architecture**, que divide la aplicación en tres partes: el **modelo** (representa el estado de la aplicación), la **vista** (la interfaz de usuario) y la **actualización** (las funciones que cambian el estado), ademas la gestion de errores en **Elm** es amigable puesto que los mensajes de error en **Elm** son bastante claros y descriptivos.
@@ -70,7 +70,7 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
 #### 4.- Caracteristicas de los Lenguajes de Script
 
-###### Ventajas:
+##### Ventajas:
 
 * **Facilidad de aprendizaje:**
   Los lenguajes de script suelen tener una **sintaxis mas simple** y legible en comparacion con otros **lenguajes tradicionales** como **Java**, esto los hace mas **accesibles** para gente que esta **empezando a programar**.
@@ -79,7 +79,7 @@ Alguna medida para resolver problemas de compatibilidad serian:
 * **Gran comunidad:**
   Lenguajes con **Python y JavaScript** tienen grandes comunidades activas y por tanto, gran variedad de librerias y **recursos para aprender online**
 
-###### Desventajas:
+##### Desventajas:
 
 * **Rendimiento limitado:**
   En general los lenguajes de script tienden a ser **mas lentos** que los **lenguajes de programacion tradicionales** ya que la **interpretacion en tiempo real y la falta de optimizacion de compilacion** pueden llevar a un descenso en el rendimiento.
@@ -92,18 +92,18 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
 #### 5.- Integracion de Codigo con las Etiquetas HTML
 
-###### Exploracion de tecnologias como CSS y HTML5
+##### Exploracion de tecnologias como CSS y HTML5
 
 * **HTML:**
   Es el **lenguaje de marcado estandar** utilizado para crear la estructura y el contenido de una pagina web. **HTML** utiliza etiquetas para definir elementos como encabezados, parrafos, imagenes y enlaces
 * **CSS:**
   Se utiliza para dar **estilo y diseño** a las paginas web, permite **controlar la apariencia** de los elementos **HTML** como el tamaño, los colores, las fuentes y los margenes.
 
-###### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
+##### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
 
 * **Ejemplo de JavaScript dentro del HTML:**
 
-  ~~~~
+  ~~~~html
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -121,13 +121,13 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
   **Archivo de JavaScript:**
 
-  ````
+  ````JavaScript
   alert("Hello world from outside a HTML")
   ````
 
   **Archivo HTML:**
 
-  ````
+  ````html
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -142,7 +142,7 @@ Alguna medida para resolver problemas de compatibilidad serian:
 
 #### 6.- Herramientas de programación
 
-###### Algunas de las herramientas de programacion mas populares son:
+##### Algunas de las herramientas de programacion mas populares son:
 
 * **Visual Studio Code:**
   **VS Code** es un **IDE** desarrollado por microsoft, tiene una gran personalizacion y es de código abierto, además, ofrece soporte para gran variedad de lenguajes y tiene gran cantidad de extensiones, por último, ofrece **resaltado de sintaxis, autocompletado, depuración integrada y control de versiones**
