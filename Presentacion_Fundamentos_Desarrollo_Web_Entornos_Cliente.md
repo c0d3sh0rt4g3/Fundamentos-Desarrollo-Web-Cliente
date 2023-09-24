@@ -24,13 +24,13 @@ h4{
 
 # Explorando los Fundamentos del Desarrollo Web en Entornos de Cliente
 
-![imagen_portada](https://us.123rf.com/450wm/andreysuslov/andreysuslov2203/andreysuslov220300005/183781378-concepto-isométrico-de-diseño-web-desarrollo-de-sitios-web-de-todas-las-plataformas-sitio-web-de.jpg?ver=6)
+![imagen_portada](./img/portada.jpg)
 
 ---
 
 <h1>Índice</h1>
 
-![bg right height:300px](https://www.comunicare.es/wp-content/uploads/2021/07/javascript.jpg)
+![bg right height:300px](./img/imagen_indice.jpg)
 **1. Modelos de Programación en Entornos Cliente/Servidor**
 
 **2. Mecanismos de Ejecución de Código en un Navegador Web**
@@ -93,7 +93,7 @@ Algunas medidas para resolver problemas de compatibilidad serían:
 
 ##### JavaScript
 
-![bg right height:300px](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png)
+![bg right height:300px](./img/logo_js.png)
 
 * **Características:**
     * Lenguaje interpretado
@@ -155,7 +155,7 @@ Algunas medidas para resolver problemas de compatibilidad serían:
 * **CSS:**
   Se utiliza para dar **estilo y diseño** a las paginas web.
 
-![bg right height:300px](https://marketplace-cdn.atlassian.com/files/422562e8-0358-462a-8dca-301eeb611c93?fileType=image&mode=full-fit)
+![bg right height:300px](./img/html_y_css.jpg)
 
 ---
 
@@ -182,7 +182,7 @@ Algunas medidas para resolver problemas de compatibilidad serían:
 
 #### 6.- Herramientas de programación
 
-##### Algunas de las herramientas de programacion mas populares:
+
 
 * **Visual Studio Code (VS Code):**
     * IDE de **código abierto**
