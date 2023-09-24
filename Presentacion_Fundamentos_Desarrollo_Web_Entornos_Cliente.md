@@ -18,6 +18,9 @@ h5{
 {
     font-size: 19px
 }
+p{
+    font-size: 18px
+}
 
 </style>
 
@@ -97,14 +100,14 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 
 ##### JavaScript
 
-<!-- ![height:160px](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png)-->
+![bg right height:160px](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png)
 
-* Caracteristicas:
+* **Caracteristicas:**
     * **Lenguaje interpretado** en tiempo de ejecución en el navegador.
     * **Tipado dinámico**, sin **tipos de dato fijados**.
     * **Multiparadigma**, se puede usar para programar **orientado a objetos**.
 
-* Aplicaciones:
+* **Aplicaciones:**
     * Creación de webs **interactivas**.
     * Desarrollo de aplicaciones móviles híbridas con **React Native**.
     * Desarrollo de servidores usando **Node.js**
@@ -115,12 +118,11 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 
 <!-- ![height:60px](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png) -->
 
-* Caracteristicas:
-
+* **Caracteristicas:**
     * Extensión de JavaScript con **tipado estático opcional**.
     * Soporte para programación **orientada a objetos**.
 
-* Aplicaciones:
+* **Aplicaciones:**
     * Desarrollo de aplicaciones web **grandes y complejas**.
     * Desarrollo de aplicaciones móviles con frameworks como **NativeScript**.
     * Desarrollo de aplicaciones de servidor a través de **Node.js**.
@@ -129,19 +131,62 @@ Algunas medidas para resolver problemas de compatibilidad serian:
 
 <!-- ![height:60px](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Elm_logo.svg/1024px-Elm_logo.svg.png) -->
 
-* Caracteristicas:
+* **Caracteristicas:**
     * Lenguaje de programación **funcional puro**.
     * Sistema de **tipado fuerte y estático** que atrapa errores en compilación.
     * Patrón de diseño conocido como "Elm Architecture."
     * Mensajes de error claros y descriptivos.
 
-* Aplicaciones:
+* **Aplicaciones:**
     * Creación de webs interactivas de alto rendimiento.
     * Desarrollo de SPAs y aplicaciones críticas.
     * Eficiente gestión del estado de la aplicación y minimización de errores.
+
 
 ---
 
 #### 4.- Caracteristicas de los Lenguajes de Script
 
 ##### Ventajas
+
+* **Facilidad de aprendizaje:**
+    * Tienen una **sintaxis mas simple** y legible en comparacion con otros **lenguajes tradicionales**.
+    * Más **accesibles** para gente que está **empezando a programar**.
+
+* **Desarrollo rapido:**
+    * Se requieren **menos lineas de codigo** para conseguir una funcionalidad
+* **Gran comunidad:**
+    * Lenguajes con **Python y JavaScript** tienen grandes comunidades activas. 
+    * Gran variedad de librerias y **recursos para aprender online** 
+
+---
+##### Desventajas
+
+* **Rendimiento Limitado:**
+    * Suelen ser **más lentos que lenguajes tradicionales**.
+    * Interpretación en tiempo real y **falta de optimización**.
+
+* **Dependencia de la Máquina Virtual:**
+    * Requieren m**áquinas virtuales o intérpretes específicos**.
+    * Puede causar problemas de **compatibilidad**.
+
+* **Limitaciones en Aplicaciones de Alto Rendimiento:**
+    * No ideales para aplicaciones que necesitan control preciso del hardware.
+    * No óptimos en términos de optimización.
+
+* **Seguridad:**
+    * Más vulnerables a ataques como la **inyección de código**.
+    * Requieren precauciones adicionales para mantener la seguridad.
+
+---
+
+#### 5.- Integracion de Codigo con las Etiquetas HTML
+##### Exploracion de tecnologias como CSS y HTML5
+
+* **HTML:**
+  Es el **lenguaje de marcado estandar** utilizado para crear la estructura y el contenido de una pagina web. **HTML** utiliza etiquetas para definir elementos como encabezados, parrafos, imagenes y enlaces
+* **CSS:**
+  Se utiliza para dar **estilo y diseño** a las paginas web, permite **controlar la apariencia** de los elementos **HTML** como el tamaño, los colores, las fuentes y los margenes.
+![bg right height:300px](https://velog.velcdn.com/images/mj9457/post/a063d5f9-a43e-4777-b21e-f3c85cb63e04/image.jpg)
+
+---
